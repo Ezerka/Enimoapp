@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         WebView myweb=(WebView) findViewById(R.id.mywebview);
         myweb.getSettings().setJavaScriptEnabled(true);
         myweb.setWebViewClient(new WebViewClient());
-        myweb.loadUrl("http://enimo.ezerka.in/");
+        myweb.loadUrl("https://enimo.ezerka.in/");
 
         Log.d("check", String.valueOf(myweb));
     }
